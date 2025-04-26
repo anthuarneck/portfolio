@@ -9,7 +9,7 @@ body {
   color: whitesmoke;
 }
 
-@layyer utilities {
+@layer utilities {
   @keyframes loading {
     0% {
       transform: translateX(-100%);
