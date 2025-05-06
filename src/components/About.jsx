@@ -20,9 +20,15 @@ export const About = () => {
             About Me
           </h2>
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
-            <p className="text-gray-300 mb-6">
-              Full-stack developer passionate about problem solving & striving
-              to make a positive impact in my community.
+            <p className="text-gray-300 text-lg mb-6">
+              Software engineer adept in JavaScript. With experience as a
+              Production Leader at Lobster Life Systems and completion of a
+              Full-Stack software engineering program at Pursuit, I have honed
+              critical-thinking, technical skills, marketing strategies,
+              management, leadership, and collaboration, but most of all
+              passion, dedication, and a strong work ethic. I am passionate
+              about advancing equity in the field and utilizing my
+              problem-solving skills to create and innovate new technologies.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

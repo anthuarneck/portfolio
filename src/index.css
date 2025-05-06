@@ -4,8 +4,8 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-  background: black;
+  font-family: "Gidole", sans-serif;
+  background: rgb(0, 0, 0);
   color: whitesmoke;
 }
 
