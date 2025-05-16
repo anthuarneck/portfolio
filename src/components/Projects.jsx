@@ -13,10 +13,15 @@ export const Projects = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition transition-all">
-              <h3 className="text-xl font-bold mb-2">Project 1</h3>
-              <p className="text-gray-400 mb-4 ">Description of Project...</p>
+              <h3 className="text-xl font-bold mb-2">Travel Diary</h3>
+              <p className="text-gray-400 mb-4 ">
+                Travel Diary is a web application that allows users to create
+                and manage their travel experiences. Users can register an
+                account, log in, and then explore a collection of destinations
+                and memories.
+              </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "TailwindCSS", "Bootstrap", "MUI"].map(
+                {["React", "TailwindCSS", "Bootstrap", "bcrypt"].map(
                   (skill, key) => (
                     <span
                       key={key}
@@ -29,7 +34,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://travel-diary-app.netlify.app/"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project
@@ -38,10 +43,14 @@ export const Projects = () => {
             </div>
 
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition transition-all">
-              <h3 className="text-xl font-bold mb-2">Project 2</h3>
-              <p className="text-gray-400 mb-4 ">Description of Project...</p>
+              <h3 className="text-xl font-bold mb-2">AceIt</h3>
+              <p className="text-gray-400 mb-4 ">
+                AceIt is a community-based mock interviewing web application
+                that consolidates the booking, conducting, and feedback
+                processes into a single, user-friendly platform.
+              </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "TailwindCSS", "Bootstrap", "MUI"].map(
+                {["React", "TailwindCSS", "ZoomAPI", "CalendlyAPI"].map(
                   (skill, key) => (
                     <span
                       key={key}
@@ -54,7 +63,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://aceitapp.netlify.app/"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project
@@ -63,10 +72,10 @@ export const Projects = () => {
             </div>
 
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition transition-all">
-              <h3 className="text-xl font-bold mb-2">Project 3</h3>
-              <p className="text-gray-400 mb-4 ">Description of Project...</p>
+              <h3 className="text-xl font-bold mb-2">AudioSight</h3>
+              <p className="text-gray-400 mb-4 ">AudioSight is a web application integrating the Spotify API to provide users with real-time, dynamic visual representations synchronized with audio features such as bass and melody.</p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "TailwindCSS", "Bootstrap", "MUI"].map(
+                {["React", "TailwindCSS", "Bootstrap", "SpotifyAPI"].map(
                   (skill, key) => (
                     <span
                       key={key}
@@ -79,7 +88,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://audiosightdemo.netlify.app/"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project
