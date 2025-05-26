@@ -7,6 +7,7 @@ body {
   font-family: "Gidole", sans-serif;
   background: rgb(0, 0, 0);
   color: whitesmoke;
+  overflow-x: hidden;
 }
 
 @layer utilities {
